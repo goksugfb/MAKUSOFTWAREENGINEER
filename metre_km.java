@@ -5,7 +5,7 @@ Adim3: km=m/1000
 Adim4: Yazdir=km
 Adim5: Bitir.
 */
-package week1;
+package makusoftwareengineer;
 import java.util.Scanner;
 public class metre_km {
     public static void main(String[] args) {
