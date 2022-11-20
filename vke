@@ -5,7 +5,8 @@
 4.Adim: Eğer VKE<=18.4 ise yazdir:+VKE +"Normal kilonuzun oldukça altındasınız."
 5.Adim: Eğer VKE>18.4 ve VKE<=24.9 ise yazdir:+VKE +"Kilonuz idealdir."
 6.Adim: Eğer VKE>24.9 ve VKE<=29.9 ise yazdir:+VKE +"Kilonuz olmanız gerekenden fazladır."
-7.Adim: Eğer VKE yukarıdakileri sağlamıyorsa yazdir:+VKE +"Kilonuz olması gerekenin çok üzerindedir." 
+7.Adim: Eğer VKE yukarıdakileri sağlamıyorsa yazdir:+VKE +"Kilonuz olması gerekenin çok üzerindedir."
+8.Adim: Bitir
 */
 package makusoftwareengineer;
 import java.util.Scanner;
