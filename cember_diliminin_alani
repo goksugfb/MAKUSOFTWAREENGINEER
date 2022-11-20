@@ -1,0 +1,21 @@
+/*
+1.Adim: Başla
+2.Adim: r, a al.
+3.Adim: A=r*r*3.14*(a/360)
+4.Adim: A yazdır.
+5.Adim: Bitir
+*/
+package makusoftwareengineer;
+import java.util.Scanner;
+public class cember_diliminin_alani {
+    public static void main(String[] args ) {
+        Scanner input=new Scanner(System.in);
+        System.out.println("Lütfen çemberin yarı çapını(cm) giriniz:");
+        double r=input.nextDouble();
+        System.out.println("Lütfen dilimin açısını(C) giriniz:");
+        double a=input.nextDouble();
+        double A;
+        A =r*r*3.14*(a/360);
+        System.out.println("Seçtiğiniz çember diliminin alanı: " +A);
+    }   
+}
