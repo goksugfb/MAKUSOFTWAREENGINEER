@@ -1,0 +1,38 @@
+/*
+1.Adim: Başla
+2.Adim: kg, cm al.
+3.Adim: m=cm/100, VKE=kg/(m*m)
+4.Adim: Eğer VKE<=18.4 ise yazdir:+VKE +"Normal kilonuzun oldukça altındasınız."
+5.Adim: Eğer VKE>18.4 ve VKE<=24.9 ise yazdir:+VKE +"Kilonuz idealdir."
+6.Adim: Eğer VKE>24.9 ve VKE<=29.9 ise yazdir:+VKE +"Kilonuz olmanız gerekenden fazladır."
+7.Adim: Eğer VKE yukarıdakileri sağlamıyorsa yazdir:+VKE +"Kilonuz olması gerekenin çok üzerindedir." 
+*/
+package makusoftwareengineer;
+import java.util.Scanner;
+public class VKE {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Lütfen vücut ağırlığınızı kg cinsinden giriniz:");
+        double kg=input.nextDouble();
+        System.out.println("Lütfen vücut uzunluğunuzu cm cinsinden giriniz:");
+        double cm=input.nextDouble();
+        double m=cm/100;
+        double VKE=kg/(m*m);
+        if(VKE<=18.4){
+            System.out.println("Vücut kitle endeksiniz: "+VKE
+                    +" Normal kilonuzun oldukça altındasınız.");
+        }
+        else if(18.4<VKE&&VKE<=24.9){
+            System.out.println("Vücut kitle endeksiniz: "+VKE
+                    +" Kilonuz idealdir.");
+        }
+        else if(24.9<VKE&&VKE<=29.9){
+            System.out.println("Vücut kitle endeksiniz: "+VKE
+                    +" Kilonuz olması gerekenden fazladır.");
+        }
+        else if(29.9<VKE){
+            System.out.println("Vücut kitle endeksiniz: "+VKE
+                    +" Kilonuz olması gerekenin çok üzerindedir.");
+        }
+    }
+}
