@@ -1,0 +1,21 @@
+/*
+1.Adim: Başla
+2.Adim: Al R, I
+3.Adim: V=I*R
+4.Adim: Yazdır V
+5.Adim: Bitir
+*/
+package makusoftwareengineer;
+import java.util.Scanner;
+public class ohm {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Lütfen R değerini giriniz:");
+        int R=input.nextInt();
+        System.out.println("Lütfen I değerini giriniz:");
+        int I=input.nextInt();
+        int V=R*I;
+        System.out.print("Girdiğiniz değerlere göre devrenizdeki iletkenin gerilimi: ");
+        System.out.println(+V+" ");
+    }
+}
