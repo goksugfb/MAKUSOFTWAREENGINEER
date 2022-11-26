@@ -1,6 +1,13 @@
 /*
-
- */
+1.Adim: Basla
+2.Adim: al m,secim
+3.Adim: Eğer secim=1 ise mm=m*1000, yazdir "mm"
+4.Adim: Eğer sacim=2 ise cm=m*100, yazdir "cm"
+5.Adim: Eğer secim=3 ise dm=m*10, yazdir "dm"
+6.Adim: Eğer secim=4 ise km=m/1000, yazdir "km"
+7.Adim: Eğer secim bunları karşılamıyorsa yazdir "Lütfen uygulamayı tekrar başlatıp geçerli bir değer giriniz."
+8.Adim: Bitir
+*/
 package makusoftwareengineer;
 import java.util.Scanner;
 public class metreden_donusturme {
